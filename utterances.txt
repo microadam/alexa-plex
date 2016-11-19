@@ -1,0 +1,26 @@
+OnDeckIntent what's on deck
+OnDeckIntent what is on deck
+OnDeckIntent what's new
+OnDeckIntent what is new
+ContinueMediaIntent continue playing {media} in the {zone}
+ContinueMediaIntent continue playing {media}
+ContinueMediaIntent continue with {media} in the {zone}
+ContinueMediaIntent continue with {media}
+MovieIntent play {media} in the {zone}
+MovieIntent play {media}
+MovieIntent play {media} movie
+MovieIntent play {media} movie in the {zone}
+MovieIntent play {media} film
+MovieIntent play {media} film in the {zone}
+IplayerWhatsOnIntent what is on TV
+IplayerWhatsOnIntent what's on TV
+IplayerChannelIntent turn on {channel} in the {zone}
+IplayerChannelIntent turn on {channel}
+
+SpecificEpisodeIntent play episode {episodeNumber} season {seasonNumber} of {show}
+SpecificEpisodeIntent play {show} episode {episodeNumber} season {seasonNumber}
+SpecificEpisodeIntent play {show} season {seasonNumber} episode {episodeNumber}
+
+PAUSE
+CONTINUE
+STOP

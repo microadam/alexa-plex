@@ -1,0 +1,60 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "OnDeckIntent",
+      "slots": []
+    },
+    {
+      "intent": "IplayerWhatsOnIntent",
+      "slots": []
+    },
+    {
+      "intent": "ContinueMediaIntent",
+      "slots": [
+        {
+          "name": "media",
+          "type": "MEDIA"
+        },
+        {
+          "name": "zone",
+          "type": "ZONE"
+        }
+      ]
+    },
+    {
+      "intent": "MovieIntent",
+      "slots": [
+        {
+          "name": "media",
+          "type": "MEDIA"
+        },
+        {
+          "name": "zone",
+          "type": "ZONE"
+        }
+      ]
+    },
+    {
+      "intent": "IplayerChannelIntent",
+      "slots": [
+        {
+          "name": "channel",
+          "type": "CHANNEL"
+        },
+        {
+          "name": "zone",
+          "type": "ZONE"
+        }
+      ]
+    }
+  ]
+}
